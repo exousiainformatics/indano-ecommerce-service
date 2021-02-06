@@ -17,7 +17,7 @@ function App() {
         >
           Learn React
           Rajeev 
-          vishwa
+          vishwa pathak
         </a>
       </header>
     </div>
