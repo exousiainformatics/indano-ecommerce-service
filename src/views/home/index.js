@@ -4,7 +4,6 @@ import Second from '../../assets/images/home/dynamic/Banner1.png';
 import Third from '../../assets/images/home/dynamic/Banner1.png';
 import Banner from './bannerView';
 import Package from './servicePackage';
-
 const carouselItems = [
     {
         src: First,
