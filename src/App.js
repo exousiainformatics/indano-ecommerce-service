@@ -7,6 +7,12 @@ import Contact from './views/contact';
 import About from './views/about';
 import Career from './views/career';
 import Blog from './views/blog';
+import Amazon from './views/amazon';
+import AmazonGlobal from './views/amazonGlobal';
+import Flipkart from './views/flipkart';
+import Myntra from './views/myntra';
+import Tata from './views/tataCliq';
+import Ajio from './views/ajio';
 import Image from './components/commonComponents/imageContainer';
 import Logo from './assets/images/company-logo/logoName.png';
 import LogoChanged from './assets/images/company-logo/logo2.png';
@@ -56,12 +62,12 @@ export default class App extends Component {
                       noCaret
                       className="dropdownHead"
                     >
-                      <NavDropdown.Item href="#amazon" className="f-xl-size">Amazon.In</NavDropdown.Item>
-                      <NavDropdown.Item href="#aGlobal" className="f-xl-size">Amazon.Global</NavDropdown.Item>
-                      <NavDropdown.Item href="#flipart" className="f-xl-size">Flipkart</NavDropdown.Item>
-                      <NavDropdown.Item href="#myntra" className="f-xl-size">Myntra</NavDropdown.Item>
-                      <NavDropdown.Item href="#tata" className="f-xl-size">Tata Cliq</NavDropdown.Item>
-                      <NavDropdown.Item href="#ajio" className="f-xl-size">ajio</NavDropdown.Item>
+                      <NavDropdown.Item href="/amazon" className="f-xl-size">Amazon.In</NavDropdown.Item>
+                      <NavDropdown.Item href="/amazonglobal" className="f-xl-size">Amazon.Global</NavDropdown.Item>
+                      <NavDropdown.Item href="/flipart" className="f-xl-size">Flipkart</NavDropdown.Item>
+                      <NavDropdown.Item href="/myntra" className="f-xl-size">Myntra</NavDropdown.Item>
+                      <NavDropdown.Item href="/tatacliq" className="f-xl-size">Tata Cliq</NavDropdown.Item>
+                      <NavDropdown.Item href="/ajio" className="f-xl-size">ajio</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link href="/about" className="f-xl-size">About us</Nav.Link>
                     <Nav.Link href="/career" className="f-xl-size">Career</Nav.Link>
@@ -91,12 +97,12 @@ export default class App extends Component {
                       open={this.state.isOpen}
                       noCaret
                     >
-                      <NavDropdown.Item href="#amazon">Amazon.In</NavDropdown.Item>
-                      <NavDropdown.Item href="#aGlobal">Amazon.Global</NavDropdown.Item>
-                      <NavDropdown.Item href="#flipart">Flipkart</NavDropdown.Item>
-                      <NavDropdown.Item href="#myntra">Myntra</NavDropdown.Item>
-                      <NavDropdown.Item href="#tata">Tata Cliq</NavDropdown.Item>
-                      <NavDropdown.Item href="#ajio">ajio</NavDropdown.Item>
+                      <NavDropdown.Item href="/amazon">Amazon.In</NavDropdown.Item>
+                      <NavDropdown.Item href="/amazonglobal">Amazon.Global</NavDropdown.Item>
+                      <NavDropdown.Item href="/flipart">Flipkart</NavDropdown.Item>
+                      <NavDropdown.Item href="/myntra">Myntra</NavDropdown.Item>
+                      <NavDropdown.Item href="/tatacliq">Tata Cliq</NavDropdown.Item>
+                      <NavDropdown.Item href="/ajio">ajio</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link href="/about">About us</Nav.Link>
                     <Nav.Link href="/career">Career</Nav.Link>
@@ -124,18 +130,19 @@ export default class App extends Component {
                       onMouseLeave={this.handleClose.bind}
                       open={this.state.isOpen}
                       noCaret
+                      className="mobileDropdown"
                     >
-                      <NavDropdown.Item href="#amazon">Amazon.In</NavDropdown.Item>
-                      <NavDropdown.Item href="#aGlobal">Amazon.Global</NavDropdown.Item>
-                      <NavDropdown.Item href="#flipart">Flipkart</NavDropdown.Item>
-                      <NavDropdown.Item href="#myntra">Myntra</NavDropdown.Item>
-                      <NavDropdown.Item href="#tata">Tata Cliq</NavDropdown.Item>
-                      <NavDropdown.Item href="#ajio">ajio</NavDropdown.Item>
+                      <NavDropdown.Item href="/amazon"><span style={{fontSize: '8px'}}>Amazon.In</span></NavDropdown.Item>
+                      <NavDropdown.Item href="/amazonglobal"><span style={{fontSize: '8px'}}>Amazon.Global</span></NavDropdown.Item>
+                      <NavDropdown.Item href="/flipart"><span style={{fontSize: '8px'}}>Flipkart</span></NavDropdown.Item>
+                      <NavDropdown.Item href="/myntra"><span style={{fontSize: '8px'}}>Myntra</span></NavDropdown.Item>
+                      <NavDropdown.Item href="/tatacliq"><span style={{fontSize: '8px'}}>Tata Cliq</span></NavDropdown.Item>
+                      <NavDropdown.Item href="/ajio"><span style={{fontSize: '8px'}}>Ajio</span></NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link href="/about">About us</Nav.Link>
-                    <Nav.Link href="/career">Career</Nav.Link>
-                    <Nav.Link href="/blog">Blog</Nav.Link>
-                    <Nav.Link href="/contact">Contact Us</Nav.Link>
+                    <Nav.Link href="/about"><span style={{fontSize: '8px'}}>About us</span></Nav.Link>
+                    <Nav.Link href="/career"><span style={{fontSize: '8px'}}>Career</span></Nav.Link>
+                    <Nav.Link href="/blog"><span style={{fontSize: '8px'}}>Blog</span></Nav.Link>
+                    <Nav.Link href="/contact"><span style={{fontSize:'8px'}}>Contact Us</span></Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Navbar>
@@ -155,6 +162,12 @@ export default class App extends Component {
             <Route path="/contact" component={Contact} />
             <Route path="/career" component={Career} />
             <Route path="/blog" component={Blog} />
+            <Route path="/amazon" component={Amazon} />
+            <Route path="/amazonglobal" component={AmazonGlobal} />
+            <Route path="/flipkart" component={Flipkart} />
+            <Route path="/myntra" component={Myntra} />
+            <Route path="/tatacliq" component={Tata} />
+            <Route path="/ajio" component={Ajio} />
             {/* <Route component={NoMatch} /> */}
           </Switch>
         </Router>

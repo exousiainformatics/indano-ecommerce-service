@@ -1,0 +1,47 @@
+.discpHead{
+    font-size: 4.3vw;
+    color: $text-link;
+    font-weight: 900;
+}
+.bold-text{
+    font-weight: bold;
+}
+.orangeColor{
+    color: $text-link;
+    font-weight: 900;
+}
+.discpList{
+    text-align: justify;
+    padding-left:15px ;
+    li::marker{
+        color: $text-link;
+        margin: 0;
+    }
+}
+
+.serviceHeadText{
+    font-size: 3.3vw;
+    color: $text-link;
+    font-weight: 900;
+}
+
+.companyHeadText{
+    font-size: 2.2vw;
+    color: $text-link;
+    font-weight: 900;
+}
+.tileDiscription{
+    font-size: 1.2vw;
+    text-align: justify;
+    font-weight: 700;
+}
+.companyHeadTextMobile{
+    font-size: 30px;
+    color: $text-link;
+    font-weight: 900;
+}
+.tileDiscriptionMobile{
+    font-size: 13px;
+    text-align: justify;
+    font-weight: 600;
+}
