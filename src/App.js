@@ -10,6 +10,7 @@ import Blog from './views/blog';
 import Image from './components/commonComponents/imageContainer';
 import Logo from './assets/images/company-logo/logoName.png';
 import LogoChanged from './assets/images/company-logo/logo2.png';
+import Footer from './components/commonComponents/footer';
 
 export default class App extends Component {
 
@@ -147,7 +148,7 @@ export default class App extends Component {
     return (
       <React.Fragment>
         <Router>
-          <HeaderWithRouter />
+          <HeaderWithRouter/>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
@@ -157,6 +158,7 @@ export default class App extends Component {
             {/* <Route component={NoMatch} /> */}
           </Switch>
         </Router>
+        <Footer/>
       </React.Fragment>
     )
   }
