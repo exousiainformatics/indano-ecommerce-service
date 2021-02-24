@@ -24,17 +24,13 @@ export default class index extends Component {
                     </Row>
                     <Row>
                         <Col className="mt-4 social-img col-3 mx-auto">
-                            <Image src={Facebook} />
+                            <Image src={Facebook} width={'90%'}/>
                         </Col>
                         <Col className="mt-4 social-img col-3 mx-auto">
-                            <Col xs={11} className="offset-1">
-                            <Image src={Instagram} />
-                            </Col>
+                            <Image src={Instagram} width={'90%'}/>
                         </Col>
                         <Col className="mt-4 social-img col-3 mx-auto">
-                            <Col xs={11} className="offset-1">
-                            <Image src={Linkedin}/>
-                            </Col>
+                            <Image src={Linkedin} width={'90%'}/>
                         </Col>
                     </Row>
                     <Row>

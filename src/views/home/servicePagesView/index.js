@@ -50,7 +50,7 @@ export default function index() {
 
 
     return (
-        <div className="mt-5">
+        <div className="mt-5" style={{overflowX:'hidden'}}>
             <Container className="d-none d-md-block">
                 <CustomView serviceData={aboutData}/>
             </Container>
