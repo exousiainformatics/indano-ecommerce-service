@@ -6,7 +6,8 @@ import Banner from './bannerView';
 import Discription from './discriptionView';
 import Package from './servicePackage';
 import ServicePagesView from './servicePagesView';
-
+import BrandView from './brandCarouselView';
+import TeamInfo from './teamInfo';
 const carouselItems = [
     {
         src: First,
@@ -29,6 +30,8 @@ export default function index() {
             <Discription />
             <ServicePagesView />
             <Package />
+            <BrandView />
+            <TeamInfo />
         </div>
 
     )

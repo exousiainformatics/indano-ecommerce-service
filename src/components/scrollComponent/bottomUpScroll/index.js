@@ -16,11 +16,13 @@ const BottomUpScroll = (props) => {
             <div>
                 {props.imageOnly ? (
                     <div>
+                        <Row>
                         {props.imageData.map((data, index) => (
                             <Col xs={4} key={index} data-aos="fade-up">
                                 <Image src={data.imgUrl} width={data.width} />
                             </Col>
                         ))}
+                        </Row>
                     </div>
                 ) : (
                         <div>
