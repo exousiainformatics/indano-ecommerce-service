@@ -21,7 +21,7 @@
       background-color: #F4802D;
       cursor: pointer;
 }
-.card-holder:hover .card-box:not(:hover) {
+.card-folder:hover .card-box:not(:hover) {
   filter: blur(4px) !important;
 }
 .card-holder{

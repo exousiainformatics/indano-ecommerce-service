@@ -79,7 +79,7 @@ export default class index extends Component {
                     </Row>
                     <Row>
                     <Col xs={3} className="mt-4 offset-9">
-                            <Image src={Logo} width={'100%'} />
+                            <Image src={Logo} width={'140%'} />
                         </Col>
                     </Row>
                     <Row className="trash">

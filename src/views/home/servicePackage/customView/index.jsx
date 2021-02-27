@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import '../../../../assets/scss/servicepack.scss'
-import '../../../../assets/scss/_commonVariables.scss'
+// import '../../../../assets/scss/servicepack.scss'
+// import '../../../../assets/scss/_commonVariables.scss'
 export default class index extends Component {
     render() {
         return (
             <div className="mt-5 card-holder mb-5">
                 <h1 className="text-center title-text mb-5">Services Packages</h1>
-                <div className="row">
+                <div className="row card-folder">
                     {this.props.packageData.map((packages,index)=>(
                         <div className="col card-box" key={index}>
                         <h4 className="title-text mt-3 text-center">{packages.title}</h4>

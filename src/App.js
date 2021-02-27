@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { withRouter } from "react-router";
 import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import './assets/scss/_commonVariables.scss';
 import Home from './views/home';
 import Contact from './views/contact';
 import About from './views/about';
@@ -17,6 +18,8 @@ import Image from './components/commonComponents/imageContainer';
 import Logo from './assets/images/company-logo/logoName.png';
 import LogoChanged from './assets/images/company-logo/logo2.png';
 import Footer from './components/commonComponents/footer';
+import Wlogo from '../src/assets/images/social/Frame.png';
+// import BrandTrustUs from '../src/views/home/brandTrustUs/customView';
 
 export default class App extends Component {
 
@@ -147,6 +150,7 @@ export default class App extends Component {
                 </Navbar.Collapse>
               </Navbar>
           </div>
+          <span className="float"><Image src={Wlogo} width={"100%"} className="my-float" /></span>
           </>
         </Container>
       );
@@ -171,6 +175,7 @@ export default class App extends Component {
             {/* <Route component={NoMatch} /> */}
           </Switch>
         </Router>
+        {/* <BrandTrustUs/> */}
         <Footer/>
       </React.Fragment>
     )

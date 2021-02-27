@@ -13,20 +13,20 @@ const breakPoints = [
 export default function index(props) {
     return (
         <div className="pt-2">
-            <Container className="">
+            <Container className=" mb-5">
                 <Row className="">
-                    <Carousel breakPoints={breakPoints} pagination={false} style={{height: '300px'}} showArrows={false} enableAutoPlay={true} autoPlaySpeed={2000}>
+                    <Carousel breakPoints={breakPoints} pagination={false} style={{height: '150%'}} showArrows={false} enableAutoPlay={true} autoPlaySpeed={2000}>
                         {props.data.map((data, index) => (
-                            <Col className="mx-auto mt-5" key={index}>
-                                <Card className="mt-md-5 teamCard">
+                            <Col className="mx-auto padding" key={index}>
+                                <Card className="pt-md-5 teamCard">
                                     <Card.Title className="positioning">
                                         <Image src={data.imgUrl} width={data.width} />
                                     </Card.Title>
                                     <Card.Body className="bodyMargin">
                                         <Card.Text>
-                                            <p className="teamSubHead">{data.name}</p>
-                                            <p className="teamSubHead">{data.companyName}</p>
-                                            <p className="teamDiscription">{data.text}</p>
+                                            <p className="teamSubHead font-mobile-bigger">{data.name}</p>
+                                            <p className="teamSubHead font-mobile-medium">{data.companyName}</p>
+                                            <p className="teamDiscription font-mobile-text">{data.text}</p>
                                         </Card.Text>
                                     </Card.Body>
                                 </Card>

@@ -1,6 +1,6 @@
 .positioning{
     position: relative;
-    top: -78px;
+    top: -100px;
     // left: 55px;
     margin-left: 18%;
 }
@@ -33,4 +33,8 @@
 .teamCardContainer{
     background-image: url('../images/home/discription/teamBackground.png');
     background-size: cover;
+    max-height: auto;
+}
+.padding{
+    padding-top: 6rem;
 }
