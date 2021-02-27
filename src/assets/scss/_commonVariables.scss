@@ -16,3 +16,17 @@ $cream:  #FEF2EA;
 
 // card Colors
 $cardBorder: rgba(0, 34, 51, 0.1);
+
+//whatsapp icon
+.float{
+	position:fixed;
+	width:55px;
+	// height:45px;
+	bottom:80px;
+	right:50px;
+	background-color:#25d366;
+	// color:#FFF;
+	border-radius:15px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1;
+}

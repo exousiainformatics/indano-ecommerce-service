@@ -8,6 +8,9 @@ import Package from './servicePackage';
 import ServicePagesView from './servicePagesView';
 import BrandView from './brandCarouselView';
 import TeamInfo from './teamInfo';
+import BrandTrustUs from './brandTrustUs';
+import GetTouchSection from './getInTouch';
+
 const carouselItems = [
     {
         src: First,
@@ -32,6 +35,8 @@ export default function index() {
             <Package />
             <BrandView />
             <TeamInfo />
+            <BrandTrustUs/>
+            <GetTouchSection/>
         </div>
 
     )

@@ -124,17 +124,17 @@ export default class index extends Component {
                                     <Row>
                                         <Col href="/">
                                             <span className="pointer" onMouseEnter={() => this.setState({ hover: true })} onMouseOut={() => this.setState({ hover: false })}>
-                                                <Image src={this.state.hover ? FacebookOrg : Facebook} width={'100%'} />
+                                                <Image src={this.state.hover ? FacebookOrg : Facebook} width={'130%'} />
                                             </span>
                                         </Col>
                                         <Col href="/">
                                         <span className="pointer" onMouseEnter={() => this.setState({ hover1: true })} onMouseOut={() => this.setState({ hover1: false })}>
-                                                <Image src={this.state.hover1 ? InstagramOrg : Instagram} width={'100%'} />
+                                                <Image src={this.state.hover1 ? InstagramOrg : Instagram} width={'130%'} />
                                             </span>
                                         </Col>
                                         <Col>
                                         <span className="pointer" onMouseEnter={() => this.setState({ hover2: true })} onMouseOut={() => this.setState({ hover2: false })}>
-                                                <Image src={this.state.hover2 ? LinkedinOrg : Linkedin} width={'100%'} />
+                                                <Image src={this.state.hover2 ? LinkedinOrg : Linkedin} width={'130%'} />
                                             </span>
                                         </Col>
                                     </Row>
