@@ -8,7 +8,7 @@ import MyntraLogo from '../../../../assets/images/home/partner/myntraLogo.png';
 import FlipkartLogo from '../../../../assets/images/home/partner/flipkartLogo.png';
 import TataLogo from '../../../../assets/images/home/partner/tataLogo.png';
 
-export default class index extends Component {
+export default class Index extends Component {
     render() {
         return (
             <Container fluid className="mt-5">
