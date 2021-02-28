@@ -161,7 +161,7 @@ export default class App extends Component {
         <Router>
           <HeaderWithRouter/>
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/indano-ecommerce-service" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/career" component={Career} />
