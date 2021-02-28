@@ -21,7 +21,7 @@
     "styled-components": "^5.2.1",
     "web-vitals": "^1.1.0"
   },
-  "homepage": "/",
+  "homepage": "http://exousiainformatics.github.io/indano-ecommerce-service",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

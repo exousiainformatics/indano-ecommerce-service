@@ -4,6 +4,17 @@
 body{
     font-family: $font;
 }
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background: $textOrange;
+    border-radius: 3px;
+    height: 200px;
+}
 .font-mobile-bigger{
     font-size: 5.4vw !important;
     letter-spacing: .1rem;
