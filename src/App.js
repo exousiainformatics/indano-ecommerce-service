@@ -19,7 +19,6 @@ import Logo from './assets/images/company-logo/logoName.png';
 import LogoChanged from './assets/images/company-logo/logo2.png';
 import Footer from './components/commonComponents/footer';
 import Wlogo from '../src/assets/images/social/Frame.png';
-// import BrandTrustUs from '../src/views/home/brandTrustUs/customView';
 
 export default class App extends Component {
 
@@ -48,7 +47,7 @@ export default class App extends Component {
           <div className="d-none d-xl-block">
             <Container>
               <Navbar expand="lg">
-                <Navbar.Brand href="/"  className="w-46">
+                <Navbar.Brand href="/indano-ecommerce-service"  className="w-46">
                   <span onMouseEnter={() => this.setState({ hover: true })} onMouseOut={() => this.setState({ hover: false })}>
                     <Image src={this.state.hover ? LogoChanged : Logo} width={'70%'} id='brand' />
                   </span>
@@ -84,7 +83,7 @@ export default class App extends Component {
           <div className="d-none d-md-block d-xl-none">
             <Container>
               <Navbar expand="lg">
-                <Navbar.Brand href="/"  className="w-46">
+                <Navbar.Brand href="/indano-ecommerce-service"  className="w-46">
                   <span onMouseEnter={() => this.setState({ hover: true })} onMouseOut={() => this.setState({ hover: false })}>
                     <Image src={this.state.hover ? LogoChanged : Logo} width={'70%'} id='brand' />
                   </span>
@@ -118,7 +117,7 @@ export default class App extends Component {
           </div>
           <div className="d-md-none">
           <Navbar expand="lg">
-                <Navbar.Brand href="/"  className="w-75">
+                <Navbar.Brand href="/indano-ecommerce-service"  className="w-75">
                   <span onMouseEnter={() => this.setState({ hover: true })} onMouseOut={() => this.setState({ hover: false })}>
                     <Image src={this.state.hover ? LogoChanged : Logo} width={'100%'} id='brand' />
                   </span>
@@ -162,20 +161,19 @@ export default class App extends Component {
           <HeaderWithRouter/>
           <Switch>
             <Route exact path="/indano-ecommerce-service" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/career" component={Career} />
-            <Route path="/blog" component={Blog} />
-            <Route path="/amazon" component={Amazon} />
-            <Route path="/amazonglobal" component={AmazonGlobal} />
-            <Route path="/flipkart" component={Flipkart} />
-            <Route path="/myntra" component={Myntra} />
-            <Route path="/tatacliq" component={Tata} />
-            <Route path="/ajio" component={Ajio} />
+            <Route path="/about" exact component={About} />
+            <Route path="/contact" exact component={Contact} />
+            <Route path="/career" exact component={Career} />
+            <Route path="/blog" exact component={Blog} />
+            <Route path="/amazon" exact component={Amazon} />
+            <Route path="/amazonglobal" exact component={AmazonGlobal} />
+            <Route path="/flipkart" exact component={Flipkart} />
+            <Route path="/myntra" exact component={Myntra} />
+            <Route path="/tatacliq" exact component={Tata} />
+            <Route path="/ajio" exact component={Ajio} />
             {/* <Route component={NoMatch} /> */}
           </Switch>
         </Router>
-        {/* <BrandTrustUs/> */}
         <Footer/>
       </React.Fragment>
     )
