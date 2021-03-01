@@ -20,6 +20,8 @@ import LogoChanged from './assets/images/company-logo/logo2.png';
 import Footer from './components/commonComponents/footer';
 import Wlogo from '../src/assets/images/social/Frame.png';
 
+const baseUrl='/indano-ecommerce-service';
+
 export default class App extends Component {
 
   constructor(props) {
@@ -64,17 +66,17 @@ export default class App extends Component {
                       noCaret
                       className="dropdownHead"
                     >
-                      <NavDropdown.Item href="/amazon" className="f-xl-size">Amazon.In</NavDropdown.Item>
-                      <NavDropdown.Item href="/amazonglobal" className="f-xl-size">Amazon.Global</NavDropdown.Item>
-                      <NavDropdown.Item href="/flipart" className="f-xl-size">Flipkart</NavDropdown.Item>
-                      <NavDropdown.Item href="/myntra" className="f-xl-size">Myntra</NavDropdown.Item>
-                      <NavDropdown.Item href="/tatacliq" className="f-xl-size">Tata Cliq</NavDropdown.Item>
-                      <NavDropdown.Item href="/ajio" className="f-xl-size">ajio</NavDropdown.Item>
+                      <NavDropdown.Item href="/indano-ecommerce-service/amazon" className="f-xl-size">Amazon.In</NavDropdown.Item>
+                      <NavDropdown.Item href="/indano-ecommerce-service/amazonglobal" className="f-xl-size">Amazon.Global</NavDropdown.Item>
+                      <NavDropdown.Item href="/indano-ecommerce-service/flipart" className="f-xl-size">Flipkart</NavDropdown.Item>
+                      <NavDropdown.Item href="/indano-ecommerce-service/myntra" className="f-xl-size">Myntra</NavDropdown.Item>
+                      <NavDropdown.Item href="/indano-ecommerce-service/tatacliq" className="f-xl-size">Tata Cliq</NavDropdown.Item>
+                      <NavDropdown.Item href="/indano-ecommerce-service/ajio" className="f-xl-size">ajio</NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link href="/about" className="f-xl-size">About us</Nav.Link>
-                    <Nav.Link href="/career" className="f-xl-size">Career</Nav.Link>
-                    <Nav.Link href="/blog" className="f-xl-size">Blog</Nav.Link>
-                    <Nav.Link href="/contact" className="f-xl-size">Contact Us</Nav.Link>
+                    <Nav.Link href="/indano-ecommerce-service/about" className="f-xl-size">About us</Nav.Link>
+                    <Nav.Link href="/indano-ecommerce-service/career" className="f-xl-size">Career</Nav.Link>
+                    <Nav.Link href="/indano-ecommerce-service/blog" className="f-xl-size">Blog</Nav.Link>
+                    <Nav.Link href="/indano-ecommerce-service/contact" className="f-xl-size">Contact Us</Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Navbar>
@@ -99,17 +101,17 @@ export default class App extends Component {
                       open={this.state.isOpen}
                       noCaret
                     >
-                      <NavDropdown.Item href="/amazon">Amazon.In</NavDropdown.Item>
-                      <NavDropdown.Item href="/amazonglobal">Amazon.Global</NavDropdown.Item>
-                      <NavDropdown.Item href="/flipart">Flipkart</NavDropdown.Item>
-                      <NavDropdown.Item href="/myntra">Myntra</NavDropdown.Item>
-                      <NavDropdown.Item href="/tatacliq">Tata Cliq</NavDropdown.Item>
-                      <NavDropdown.Item href="/ajio">ajio</NavDropdown.Item>
+                      <NavDropdown.Item href="/indano-ecommerce-service/amazon">Amazon.In</NavDropdown.Item>
+                      <NavDropdown.Item href="/indano-ecommerce-service/amazonglobal">Amazon.Global</NavDropdown.Item>
+                      <NavDropdown.Item href="/indano-ecommerce-service/flipart">Flipkart</NavDropdown.Item>
+                      <NavDropdown.Item href="/indano-ecommerce-service/myntra">Myntra</NavDropdown.Item>
+                      <NavDropdown.Item href="/indano-ecommerce-service/tatacliq">Tata Cliq</NavDropdown.Item>
+                      <NavDropdown.Item href="/indano-ecommerce-service/ajio">ajio</NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link href="/about">About us</Nav.Link>
-                    <Nav.Link href="/career">Career</Nav.Link>
-                    <Nav.Link href="/blog">Blog</Nav.Link>
-                    <Nav.Link href="/contact">Contact Us</Nav.Link>
+                    <Nav.Link href="/indano-ecommerce-service/about">About us</Nav.Link>
+                    <Nav.Link href="/indano-ecommerce-service/career">Career</Nav.Link>
+                    <Nav.Link href="/indano-ecommerce-service/blog">Blog</Nav.Link>
+                    <Nav.Link href="/indano-ecommerce-service/contact">Contact Us</Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Navbar>
@@ -134,17 +136,17 @@ export default class App extends Component {
                       noCaret
                       className="mobileDropdown"
                     >
-                      <NavDropdown.Item href="/amazon"><span style={{fontSize: '8px'}}>Amazon.In</span></NavDropdown.Item>
-                      <NavDropdown.Item href="/amazonglobal"><span style={{fontSize: '8px'}}>Amazon.Global</span></NavDropdown.Item>
-                      <NavDropdown.Item href="/flipart"><span style={{fontSize: '8px'}}>Flipkart</span></NavDropdown.Item>
-                      <NavDropdown.Item href="/myntra"><span style={{fontSize: '8px'}}>Myntra</span></NavDropdown.Item>
-                      <NavDropdown.Item href="/tatacliq"><span style={{fontSize: '8px'}}>Tata Cliq</span></NavDropdown.Item>
-                      <NavDropdown.Item href="/ajio"><span style={{fontSize: '8px'}}>Ajio</span></NavDropdown.Item>
+                      <NavDropdown.Item href="/indano-ecommerce-service/amazon"><span style={{fontSize: '8px'}}>Amazon.In</span></NavDropdown.Item>
+                      <NavDropdown.Item href="/indano-ecommerce-service/amazonglobal"><span style={{fontSize: '8px'}}>Amazon.Global</span></NavDropdown.Item>
+                      <NavDropdown.Item href="/indano-ecommerce-service/flipart"><span style={{fontSize: '8px'}}>Flipkart</span></NavDropdown.Item>
+                      <NavDropdown.Item href="/indano-ecommerce-service/myntra"><span style={{fontSize: '8px'}}>Myntra</span></NavDropdown.Item>
+                      <NavDropdown.Item href="/indano-ecommerce-service/tatacliq"><span style={{fontSize: '8px'}}>Tata Cliq</span></NavDropdown.Item>
+                      <NavDropdown.Item href="/indano-ecommerce-service/ajio"><span style={{fontSize: '8px'}}>Ajio</span></NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link href="/about"><span style={{fontSize: '8px'}}>About us</span></Nav.Link>
-                    <Nav.Link href="/career"><span style={{fontSize: '8px'}}>Career</span></Nav.Link>
-                    <Nav.Link href="/blog"><span style={{fontSize: '8px'}}>Blog</span></Nav.Link>
-                    <Nav.Link href="/contact"><span style={{fontSize:'8px'}}>Contact Us</span></Nav.Link>
+                    <Nav.Link href="/indano-ecommerce-service/about"><span style={{fontSize: '8px'}}>About us</span></Nav.Link>
+                    <Nav.Link href="/indano-ecommerce-service/career"><span style={{fontSize: '8px'}}>Career</span></Nav.Link>
+                    <Nav.Link href="/indano-ecommerce-service/blog"><span style={{fontSize: '8px'}}>Blog</span></Nav.Link>
+                    <Nav.Link href="/indano-ecommerce-service/contact"><span style={{fontSize:'8px'}}>Contact Us</span></Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Navbar>
@@ -161,16 +163,16 @@ export default class App extends Component {
           <HeaderWithRouter/>
           <Switch>
             <Route exact path="/indano-ecommerce-service" component={Home} />
-            <Route path="/about" exact component={About} />
-            <Route path="/contact" exact component={Contact} />
-            <Route path="/career" exact component={Career} />
-            <Route path="/blog" exact component={Blog} />
-            <Route path="/amazon" exact component={Amazon} />
-            <Route path="/amazonglobal" exact component={AmazonGlobal} />
-            <Route path="/flipkart" exact component={Flipkart} />
-            <Route path="/myntra" exact component={Myntra} />
-            <Route path="/tatacliq" exact component={Tata} />
-            <Route path="/ajio" exact component={Ajio} />
+            <Route path={`${baseUrl}/about`} exact component={About} />
+            <Route path={`${baseUrl}/contact`} exact component={Contact} />
+            <Route path={`${baseUrl}/career`} exact component={Career} />
+            <Route path={`${baseUrl}/blog`} exact component={Blog} />
+            <Route path={`${baseUrl}/amazon`} exact component={Amazon} />
+            <Route path={`${baseUrl}/amazonGlobal`} exact component={AmazonGlobal} />
+            <Route path={`${baseUrl}/flipkart`} exact component={Flipkart} />
+            <Route path={`${baseUrl}/myntra`} exact component={Myntra} />
+            <Route path={`${baseUrl}/tata`} exact component={Tata} />
+            <Route path={`${baseUrl}/ajio`} exact component={Ajio} />
             {/* <Route component={NoMatch} /> */}
           </Switch>
         </Router>
