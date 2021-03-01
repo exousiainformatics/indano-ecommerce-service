@@ -66,7 +66,7 @@ export default class App extends Component {
                     >
                       <NavDropdown.Item href="/amazon" className="f-xl-size">Amazon.In</NavDropdown.Item>
                       <NavDropdown.Item href="/amazonglobal" className="f-xl-size">Amazon.Global</NavDropdown.Item>
-                      <NavDropdown.Item href="/flipart" className="f-xl-size">Flipkart</NavDropdown.Item>
+                      <NavDropdown.Item href="/flipkart" className="f-xl-size">Flipkart</NavDropdown.Item>
                       <NavDropdown.Item href="/myntra" className="f-xl-size">Myntra</NavDropdown.Item>
                       <NavDropdown.Item href="/tatacliq" className="f-xl-size">Tata Cliq</NavDropdown.Item>
                       <NavDropdown.Item href="/ajio" className="f-xl-size">ajio</NavDropdown.Item>
@@ -101,7 +101,7 @@ export default class App extends Component {
                     >
                       <NavDropdown.Item href="/amazon">Amazon.In</NavDropdown.Item>
                       <NavDropdown.Item href="/amazonglobal">Amazon.Global</NavDropdown.Item>
-                      <NavDropdown.Item href="/flipart">Flipkart</NavDropdown.Item>
+                      <NavDropdown.Item href="/flipkart">Flipkart</NavDropdown.Item>
                       <NavDropdown.Item href="/myntra">Myntra</NavDropdown.Item>
                       <NavDropdown.Item href="/tatacliq">Tata Cliq</NavDropdown.Item>
                       <NavDropdown.Item href="/ajio">ajio</NavDropdown.Item>
@@ -136,7 +136,7 @@ export default class App extends Component {
                     >
                       <NavDropdown.Item href="/amazon"><span style={{fontSize: '8px'}}>Amazon.In</span></NavDropdown.Item>
                       <NavDropdown.Item href="/amazonglobal"><span style={{fontSize: '8px'}}>Amazon.Global</span></NavDropdown.Item>
-                      <NavDropdown.Item href="/flipart"><span style={{fontSize: '8px'}}>Flipkart</span></NavDropdown.Item>
+                      <NavDropdown.Item href="/flipkart"><span style={{fontSize: '8px'}}>Flipkart</span></NavDropdown.Item>
                       <NavDropdown.Item href="/myntra"><span style={{fontSize: '8px'}}>Myntra</span></NavDropdown.Item>
                       <NavDropdown.Item href="/tatacliq"><span style={{fontSize: '8px'}}>Tata Cliq</span></NavDropdown.Item>
                       <NavDropdown.Item href="/ajio"><span style={{fontSize: '8px'}}>Ajio</span></NavDropdown.Item>
