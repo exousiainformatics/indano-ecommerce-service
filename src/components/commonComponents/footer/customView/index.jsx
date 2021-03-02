@@ -13,6 +13,7 @@ import FacebookOrg from './../../../../assets/images/social/fb.png';
 import InstagramOrg from './../../../../assets/images/social/insta.png';
 import LinkedinOrg from './../../../../assets/images/social/linkdin.png';
 import { Container, Row, Col } from 'react-bootstrap';
+import {BrowserRouter, Link} from 'react-router-dom';
 
 
 export default class index extends Component {
@@ -83,22 +84,30 @@ export default class index extends Component {
                             <Row>
                                 <Col md={8} className="mt-4">
                                     <span className="footerText">
-                                        About us
+                                        <BrowserRouter>
+                                        <Link to='/about' target='_blank'>About us</Link>
+                                        </BrowserRouter>
                                     </span>
                                 </Col>
                                 <Col md={8} className="mt-4">
                                     <span className="footerText">
-                                        Privacy Policy
+                                        <BrowserRouter>
+                                        <Link to='/privacy' target='_blank'>Privacy Policy</Link>
+                                        </BrowserRouter>
                                     </span>
                                 </Col>
                                 <Col md={8} className="mt-4">
                                     <span className="footerText">
-                                        Careers
+                                        <BrowserRouter>
+                                        <Link to='/career' target='_blank'>Careers</Link>
+                                        </BrowserRouter>
                                     </span>
                                 </Col>
                                 <Col md={8} className="mt-4">
                                     <span className="footerText">
-                                        Blogs
+                                        <BrowserRouter>
+                                    <Link to='/blog' target='_blank'>Blogs</Link>
+                                        </BrowserRouter>
                                     </span>
                                 </Col>
                             </Row>

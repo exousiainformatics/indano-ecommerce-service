@@ -19,6 +19,7 @@ import Logo from './assets/images/company-logo/logoName.png';
 import LogoChanged from './assets/images/company-logo/logo2.png';
 import Footer from './components/commonComponents/footer';
 import Wlogo from '../src/assets/images/social/Frame.png';
+import Privacy from './views/privacy';
 
 const baseUrl = '/indano-ecommerce-service';
 
@@ -174,6 +175,7 @@ export default class App extends Component {
             <Route path="/myntra" exact component={Myntra} />
             <Route path="/tata" exact component={Tata} />
             <Route path="/ajio" exact component={Ajio} />
+            <Route path="/privacy" exact component={Privacy} />
             {/* <Route component={NoMatch} /> */}
           </Switch>
         </Router>
