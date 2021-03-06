@@ -1,13 +1,13 @@
 .discpImgText{
     span{
-        font-size: 55px;
-        font-weight: 700;
+        font-size: 6.5vw;
+        font-weight: 400;
         font-family: $font;
         color: $text-link;
     }
 }
 .discpSubText{
-    font-size: 1.3vw;
+    font-size: 2vw;
     font-family: $font;
     text-align: center;
 }
@@ -19,6 +19,7 @@
         font-weight: 500;
         font-family: $font;
         color: $text-link;
+        font-size: 6.1vw;
     }
 }
 
@@ -45,8 +46,8 @@
 
 .companySubHeadText{
     color: $textGrey;
-    font-size:1.6vw;
-    font-weight: 900;
+    font-size:4.5vw;
+    font-weight: 600;
     font-family: $font;
     letter-spacing: .5px;
     font-style: italic;

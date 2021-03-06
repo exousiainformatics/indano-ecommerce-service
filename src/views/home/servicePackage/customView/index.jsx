@@ -5,7 +5,7 @@ export default class index extends Component {
     render() {
         return (
             <div className="mt-5 card-holder mb-5">
-                <h1 className="text-center title-text mb-5">Services Packages</h1>
+                <h1 className="text-center companyHeadText font-mobile-medium mb-5">Services Packages</h1>
                 <div className="row card-folder">
                     {this.props.packageData.map((packages,index)=>(
                         <div className="col card-box" key={index}>

@@ -110,12 +110,13 @@
 
 // get Touch section
 
-.companySubHeadText{
-    color: $text-link;
-    font-size:2.7vw;
-    font-weight: 900;
+.companySubHeadtext{
+    color: $textGrey;
+    font-size:2.5vw;
+    font-weight: 600;
     font-family: $font;
     letter-spacing: .5px;
+    font-style: italic;
 }
 
 .getTouch{

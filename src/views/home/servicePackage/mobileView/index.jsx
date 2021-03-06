@@ -6,7 +6,7 @@ export default class index extends Component {
         console.log(this.props.packageData, 'hello')
         return (
             <div className="mt-5 card-holder-m">
-                <h1 className="text-center title-text mb-5">Services Packages</h1>
+                <h1 className="serviceHeadText font-mobile-extra-bigger text-center mb-5">Services Packages</h1>
                 {this.props.packageData.map((packages,index)=>(
                     <div className="card-box-m row" key={index}>
                     <h4 className="title-text mt-3 text-center w-100">{packages.title}</h4>

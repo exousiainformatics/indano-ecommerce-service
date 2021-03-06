@@ -26,8 +26,8 @@ export default function index(props) {
                                     </Card.Title>
                                     <Card.Body className="bodyMargin">
                                         <Card.Text>
-                                            <p className="teamSubHead font-mobile-bigger">{data.name}</p>
-                                            <p className="teamSubHead font-mobile-medium">{data.companyName}</p>
+                                            <p className="teamSubHead font-mobile-bigger mt-0">{data.name}</p>
+                                            <p className="teamSubHead font-mobile-bigger textUp">{data.companyName}</p>
                                             <p className="teamDiscription font-mobile-text">{data.text}</p>
                                         </Card.Text>
                                     </Card.Body>

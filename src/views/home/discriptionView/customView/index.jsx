@@ -9,12 +9,12 @@ export default class index extends Component {
         return (
             <Container>
                 <Row>
-                    <Col md={10} className="offset-md-1 text-center">
+                    <Col md={12} className="text-center">
                         <span className="discpHead">Our Mission is to Create Brands & Make Relations.</span>
                     </Col>
                 </Row>
                 <Row className="mt-5">
-                    <Col md={5}  className="offset-md-1 pt-5">
+                    <Col md={6}  className="pt-5 text-size">
                         <p>
                             <span className="bold-text">INDANO E-COMMERCE SERVICES</span>, offers you a complete suite of E-Commerce services and claims to be among best service provider networks. 
                             INDANO is your perfect partner to launch you on Amazon, Flipkart, Tata Cliq, Ajio and Myntra. 
@@ -29,7 +29,7 @@ export default class index extends Component {
                         </ul>
                     </Col>
                     <Col md={5}  className="offset-md-1">
-                        <Image src={DiscpImage} width={'80%'} />
+                        <Image src={DiscpImage} width={'100%'} />
                     </Col>
                 </Row>
             </Container>
