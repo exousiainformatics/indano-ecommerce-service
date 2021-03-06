@@ -11,7 +11,7 @@ export default function index() {
             </Container>
             <div className="d-md-none pt-3">
                 <h2 className="discpHead text-center font-mobile-extra-bigger mt-3">Myntra</h2>
-                <h3 className="companySubHeadText font-mobile-medium text-center mt-3">Onboarding</h3>
+                <h3 className="companySubHeadText text-center mt-3">Onboarding</h3>
             </div>
             <DiscpView />
             <TextView />

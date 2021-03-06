@@ -10,7 +10,7 @@ export default function index(props) {
                         <Row>
                             <Col md={10} className="offset-1">
                                 <Row key={index}>
-                                    <Col><h2 className="discpHead">{data.title}</h2></Col>
+                                    <Col><h2 className="companyHeadText">{data.title}</h2></Col>
                                 </Row>
                                 <Row className="mt-5">
                                     {data.subText.map((list, index) => (
@@ -20,11 +20,11 @@ export default function index(props) {
                                     ))}
                                 </Row>
                                 <Row className="mt-5">
-                                    <Col><h2 className="listTitle">{data.titleTwo}</h2></Col>
+                                    <Col><h2 className="listTitle font-italic">{data.titleTwo}</h2></Col>
                                 </Row>
                                 <Row className="mt-4 mb-5">
                                     <Col md={10} className="offset-1">
-                                        <p className="listSubText">{data.text}</p>
+                                        <p className="listSubText text-size font-italic">{data.text}</p>
                                     </Col>
                                 </Row>
                             </Col>

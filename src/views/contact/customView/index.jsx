@@ -26,21 +26,21 @@ export default class Contact extends Component {
                 <Container className="col-10 mt-5 mb-5">
                     <Row>
                         <Col className="col-3 brdr font-weight-bold">
-                            <h1 className="serviceHeadText mb-4">Address</h1>
-                            <p className="mb-0">Ground Floor F-76 </p>
-                            <p className="mb-0">Adhyapak Nagar,</p>
-                            <p className="mb-0">Nangloi, New Delhi</p>
-                            <p className="mb-0">Pin Code-110041</p>
+                            <h1 className="companyHeadText mb-4">Address</h1>
+                            <p className="text-size mb-0">Ground Floor F-76 </p>
+                            <p className="text-size mb-0">Adhyapak Nagar,</p>
+                            <p className="text-size mb-0">Nangloi, New Delhi</p>
+                            <p className="text-size mb-0">Pin Code-110041</p>
                         </Col>
-                        <Col className="col-6 brdr font-weight-bold">
-                            <h1 className="serviceHeadText mb-4">Phone/Email</h1>
-                            <p className="mb-0">+91-7985435146(Official) </p>
-                            <p className="mb-0">info@indano.in(Official)</p>
-                            <p className="mb-0">info.indano@gmail.com(Seller support)</p>
-                            <p className="mb-0">Pin Code-110041</p>
+                        <Col className="col-5 ml-3 brdr font-weight-bold">
+                            <h1 className="companyHeadText mb-4">Phone/Email</h1>
+                            <p className="text-size mb-0">+91-7985435146(Official) </p>
+                            <p className="text-size mb-0">info@indano.in(Official)</p>
+                            <p className="text-size mb-0">info.indano@gmail.com(Seller support)</p>
+                            <p className="text-size mb-0">+91-9311079540(Seller support)</p>
                         </Col>
-                        <Col className="col-3 font-weight-bold">
-                            <h1 className="serviceHeadText mb-4">media</h1>
+                        <Col className="col-3 ml-2 font-weight-bold">
+                            <h1 className="companyHeadText mb-4">media</h1>
                             <Row>
                                 <Col href="/">
                                     <span className="pointer" onMouseEnter={() => this.setState({ hover: true })} onMouseOut={() => this.setState({ hover: false })}>
@@ -70,7 +70,7 @@ export default class Contact extends Component {
                     <Container className="mt-3 mb-2">
                         <Row>
                             <Col md={6} className="mt-5">
-                                <h1 className="text-center serviceHeadText font-mobile-biggerr">Get In Touch With Us</h1>
+                                <h1 className="companyHeadText font-mobile-biggerr">Get In Touch With Us</h1>
                             </Col>
                         </Row>
                     </Container>

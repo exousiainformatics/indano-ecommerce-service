@@ -5,9 +5,9 @@ import Image from './../../imageContainer/index';
 import Call from '../../../../assets/images/social/Group.png'
 import Msg from '../../../../assets/images/social/Vector-1.png';
 import Support from '../../../../assets/images/social/Vector-2.png';
-import Facebook from '../../../../assets/images/social/fbb.png';
-import Instagram from '../../../../assets/images/social/inst.png';
-import Linkedin from '../../../../assets/images/social/lkd.png';
+import Facebook from '../../../../assets/images/social/fbb.svg';
+import Instagram from '../../../../assets/images/social/inst.svg';
+import Linkedin from '../../../../assets/images/social/lkd.svg';
 import Logo from '../../../../assets/images/company-logo/logo-transparent.png'
 import { Container, Row, Col } from 'react-bootstrap';
 export default class index extends Component {

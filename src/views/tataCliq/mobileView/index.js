@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import Group from '../../../assets/images/tatacliq-img/Group.png'
+import Group from '../../../assets/images/tatacliq-img/Group.png';
+import Tick from '../../../assets/images/amazon-global-img/tick.png';
 
 export default function index() {
     return (
@@ -25,10 +26,11 @@ export default function index() {
             </Row>
             <h2 className=" mt-3 text-center serviceHeadText font-mobile-biggerr">Benefits of selling with Tatacliq</h2>
             <Row className="mt-4 mb-5">
-                <Col className="col-6 font-weight-bold"><p>Plethora of customers</p>
-                    <p>Valuable tips</p></Col>
-                <Col className="col-6 font-weight-bold"><p>Easily monitor your sales</p>
-                    <p>Transparency</p></Col>
+                <Col className="col-6 font-weight-bold"><p><Image src={Tick}/><span>Plethora of customers</span></p>
+                <Image src={Tick}/>
+                    <span>Valuable tips</span></Col>
+                <Col className="col-6 font-weight-bold"><p><Image src={Tick}/><span>Easily monitor your sales</span></p>
+                <Image src={Tick}/><span>Transparency</span></Col>
             </Row>
         </Container>
     )
