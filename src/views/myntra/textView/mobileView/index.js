@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col,Image } from 'react-bootstrap';
+import Tick from '../../../../assets/images/amazon-global-img/tick.png';
 
 export default function index(props) {
     return (
@@ -12,10 +13,11 @@ export default function index(props) {
                                 <Row key={index}>
                                     <Col><h2 className="discpHead font-mobile-extra-bigger">{data.title}</h2></Col>
                                 </Row>
-                                <Row className="mt-4">
+                                <Row className="mt-4  text-left">
                                     {data.subText.map((list, index) => (
-                                        <Col xs={4} key={index}>
-                                            <p className="listText font-mobile-text">{list}</p>
+                                        <Col xs={6} key={index}>
+                                            <Image src={Tick}/>
+                                            <span className="listText font-mobile-text">{list}</span>
                                         </Col>
                                     ))}
                                 </Row>

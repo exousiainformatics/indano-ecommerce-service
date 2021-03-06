@@ -7,9 +7,14 @@
     width: 12rem;
 }
 .para{
-    font-weight: bold;
     font-family: Arial;
-    font-size: larger;
+    font-size: x-large;
+}
+@media only screen and(max-width:600px){
+.para{
+    font-family: Arial;
+    font-size: large;
+}
 }
 .position-card{
     border: 1px solid #D8D8D8;
@@ -50,4 +55,21 @@ li span{
 }
 .text-light-org{
     color: $textOrange;
+    font-size: 3vw;
+    letter-spacing: .1rem;
+}
+@media only screen and(max-width:600px){
+    .text-light-org{
+        color: $textOrange;
+        font-size: 5.4vw;
+        letter-spacing: .1rem;
+    }
+}
+.EqualText{
+    font-size: 4.5vw;
+}
+@media only screen and (max-width:600px){
+ .EqualText{
+     font-size: 7.4vw;
+ }
 }
