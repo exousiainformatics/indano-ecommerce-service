@@ -16,7 +16,7 @@ export default function index(props) {
         <Container>
             <div className="carouView">
                 <Carousel breakPoints={breakPoints} pagination={false}
-                    showArrows={false}
+                    // showArrows={false}
                     autoPlaySpeed={3000}
                 className="styling-example">
                     {props.data.map((data, index)=>(

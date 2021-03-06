@@ -13,7 +13,7 @@ import FacebookOrg from './../../../../assets/images/social/fb.png';
 import InstagramOrg from './../../../../assets/images/social/insta.png';
 import LinkedinOrg from './../../../../assets/images/social/linkdin.png';
 import { Container, Row, Col } from 'react-bootstrap';
-import {BrowserRouter, Link} from 'react-router-dom';
+import { BrowserRouter, Link } from 'react-router-dom';
 
 
 export default class index extends Component {
@@ -85,28 +85,28 @@ export default class index extends Component {
                                 <Col md={8} className="mt-4">
                                     <span className="footerText">
                                         <BrowserRouter>
-                                        <Link to='/about' target='_blank'>About us</Link>
+                                            <Link to='/about'>About us</Link>
                                         </BrowserRouter>
                                     </span>
                                 </Col>
                                 <Col md={8} className="mt-4">
                                     <span className="footerText">
                                         <BrowserRouter>
-                                        <Link to='/privacy' target='_blank'>Privacy Policy</Link>
+                                            <Link to='/privacy'>Privacy Policy</Link>
                                         </BrowserRouter>
                                     </span>
                                 </Col>
                                 <Col md={8} className="mt-4">
                                     <span className="footerText">
                                         <BrowserRouter>
-                                        <Link to='/career' target='_blank'>Careers</Link>
+                                            <Link to='/career'>Careers</Link>
                                         </BrowserRouter>
                                     </span>
                                 </Col>
                                 <Col md={8} className="mt-4">
                                     <span className="footerText">
                                         <BrowserRouter>
-                                    <Link to='/blog' target='_blank'>Blogs</Link>
+                                            <Link to='/blog'>Blogs</Link>
                                         </BrowserRouter>
                                     </span>
                                 </Col>
@@ -131,20 +131,32 @@ export default class index extends Component {
                                 </Col>
                                 <Col md={8} className="mt-4">
                                     <Row>
-                                        <Col href="/">
-                                            <span className="pointer" onMouseEnter={() => this.setState({ hover: true })} onMouseOut={() => this.setState({ hover: false })}>
-                                                <Image src={this.state.hover ? FacebookOrg : Facebook} width={'130%'} />
-                                            </span>
-                                        </Col>
-                                        <Col href="/">
-                                        <span className="pointer" onMouseEnter={() => this.setState({ hover1: true })} onMouseOut={() => this.setState({ hover1: false })}>
-                                                <Image src={this.state.hover1 ? InstagramOrg : Instagram} width={'130%'} />
-                                            </span>
+                                        <Col>
+                                            <BrowserRouter>
+                                                <Link to={{pathname:"https://www.facebook.com/indanoservice/"}} target="_blank">
+                                                    <span className="pointer" onMouseEnter={() => this.setState({ hover: true })} onMouseOut={() => this.setState({ hover: false })}>
+                                                        <Image src={this.state.hover ? FacebookOrg : Facebook} width={'130%'} />
+                                                    </span>
+                                                </Link>
+                                            </BrowserRouter>
                                         </Col>
                                         <Col>
-                                        <span className="pointer" onMouseEnter={() => this.setState({ hover2: true })} onMouseOut={() => this.setState({ hover2: false })}>
-                                                <Image src={this.state.hover2 ? LinkedinOrg : Linkedin} width={'130%'} />
-                                            </span>
+                                            <BrowserRouter>
+                                                <Link to={{pathname:"https://www.instagram.com/invites/contact/?i=3q694vmnhw84&utm_content=27dfpsp"}} target="_blank">
+                                                    <span className="pointer" onMouseEnter={() => this.setState({ hover1: true })} onMouseOut={() => this.setState({ hover1: false })}>
+                                                        <Image src={this.state.hover1 ? InstagramOrg : Instagram} width={'130%'} />
+                                                    </span>
+                                                </Link>
+                                            </BrowserRouter>
+                                        </Col>
+                                        <Col>
+                                            <BrowserRouter>
+                                                <Link to={{pathname:"https://www.linkedin.com/company/indano-e-commerce-services"}} target="_blank">
+                                                    <span className="pointer" onMouseEnter={() => this.setState({ hover2: true })} onMouseOut={() => this.setState({ hover2: false })}>
+                                                        <Image src={this.state.hover2 ? LinkedinOrg : Linkedin} width={'130%'} />
+                                                    </span>
+                                                </Link>
+                                            </BrowserRouter>
                                         </Col>
                                     </Row>
                                 </Col>
