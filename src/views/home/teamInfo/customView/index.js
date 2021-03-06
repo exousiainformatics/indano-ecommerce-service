@@ -15,7 +15,9 @@ export default function index(props) {
         <div className="pt-2">
             <Container className="col-9">
                 <Row className="">
-                    <Carousel breakPoints={breakPoints} pagination={false} style={{height: '500px'}} showArrows={false} enableAutoPlay={true} autoPlaySpeed={2000}>
+                    <Carousel breakPoints={breakPoints} pagination={false} style={{height: '500px'}} enableAutoPlay={true} autoPlaySpeed={2000}
+                    className="styling-example"
+                    >
                         {props.data.map((data, index) => (
                             <Col className="mx-auto mt-5" key={index}>
                                 <Card className="mt-md-5 teamCard heigt">

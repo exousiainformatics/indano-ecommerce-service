@@ -8,14 +8,16 @@ const breakPoints = [
     { width: 550, itemsToShow: 2 },
     { width: 768, itemsToShow: 3 },
     { width: 1200, itemsToShow: 3 },
-  ];
+];
 
 export default function index(props) {
     return (
         <div className="pt-2">
             <Container className=" mb-5">
                 <Row className="">
-                    <Carousel breakPoints={breakPoints} pagination={false} style={{height: '150%'}} showArrows={false} enableAutoPlay={true} autoPlaySpeed={2000}>
+                    <Carousel breakPoints={breakPoints} pagination={false} style={{ height: '150%' }}
+                        className="styling-example"
+                        enableAutoPlay={true} autoPlaySpeed={2000}>
                         {props.data.map((data, index) => (
                             <Col className="mx-auto padding" key={index}>
                                 <Card className="pt-md-5 teamCard">
