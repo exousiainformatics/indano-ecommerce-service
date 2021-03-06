@@ -7,11 +7,11 @@ export default function index(props) {
             <Container>
                 <Row>
                     <Col>
-                    <h2 className="discpHead text-center">Official Partner</h2>
+                    <h2 className="serviceHeadText text-center">Official Partner</h2>
                     </Col>
                 </Row>
                 <Row className="mt-5">
-                    <Col md={4} className="offset-4">
+                    <Col md={8} className="offset-2">
                         <Row>
                         {props.data.map((img, index)=>(
                         <Col md={6} key={index}><Image src={img.imgUrl} width={img.width} /></Col>

@@ -7,7 +7,7 @@ import Second from '../../../assets/images/home/partner/amazonLogo.png';
 const partnerData = [
     {
         imgUrl: Second,
-        width: '100%'
+        width: '80%'
     },
     {
         imgUrl: First,

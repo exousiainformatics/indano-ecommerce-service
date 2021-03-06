@@ -15,12 +15,12 @@ export default function index() {
                             <Col md={6} className="text-right offset-md-4"><span className="">Brands</span></Col>
                         </Row>
                     </Col>
-                    <Col md={2}><Image src={And} width={'80%'} /></Col>
+                    <Col md={2} className="pt-4"><Image src={And} width={'100%'} /></Col>
                     <Col md={5} className="discpImgText"><span>We Make Relations</span></Col>
                 </Row>
                 <Row className="mt-4">
-                    <Col xs={8} className="offset-2">
-                        <p className="discpSubText">
+                    <Col xs={10} className="offset-1">
+                        <p className="discpSubText text-center">
                             Our Ethics guide how we treat each other, make decision, and serve our customers.
                             We earn the trust for the INDANO brand through ethical and responsible conduct.
                             Fulfill our customers responsibilities through disciplined business practices.

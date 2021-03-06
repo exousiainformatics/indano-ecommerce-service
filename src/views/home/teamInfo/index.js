@@ -12,7 +12,7 @@ const teamInfo = [
         name: 'Naman',
         companyName: 'Grip-X',
         imgUrl: Naman,
-        width: '70%',
+        width: '80%',
         text: 'One of the best authorised partner we deal with fast reply anytime you call or msg and polite attitude of everyone who work in company. Also help to know how amazon works which help us to do sale better.'
     },
     {
@@ -37,7 +37,7 @@ const teamInfo = [
         text: 'I have no words to praise their work, as they helped me crack sales of 1crore within 75 working days. Its our honour to work with them.'
     },
     {
-        name: 'prabal sharma',
+        name: 'Prabal sharma',
         companyName: 'App Sale',
         imgUrl: Prabal,
         width: '80%',

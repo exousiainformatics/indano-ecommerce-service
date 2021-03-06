@@ -21,7 +21,7 @@ export default function index() {
                 </Row>
                 <Row className="mt-4">
                     <Col xs={10} className="offset-1">
-                        <p className="discpSubText font-mobile-medium">
+                        <p className="discpSubText font-mobile-text">
                             Our Ethics guide how we treat each other, make decision, and serve our customers.
                             We earn the trust for the INDANO brand through ethical and responsible conduct.
                             Fulfill our customers responsibilities through disciplined business practices.
@@ -31,7 +31,7 @@ export default function index() {
                         <hr className="hr"/>
                     </Col>
                     <Col xs={10} className="offset-1 mt-3">
-                        <p className="discpSubText font-mobile-medium">
+                        <p className="discpSubText font-mobile-text">
                         We won’t stop pushing ahead, because you won’t stop pushing ahead.
                         You are reinventing. 
                         How you sell. How you live. With our services, you will reinvent your online sales.

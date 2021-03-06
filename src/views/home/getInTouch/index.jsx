@@ -7,7 +7,7 @@ export default class GetTouchSection extends Component {
                 <Container className="mt-3 mb-2">
                     <Row>
                         <Col md={6} className="mt-5">
-                            <h1 className="text-center serviceHeadText font-mobile-biggerr">Get In Touch With Us</h1>
+                            <h1 className="font-mobile-biggerr bold-text orangeLight text-center text-md-left">Get In Touch With Us</h1>
                         </Col>
                     </Row>
                 </Container>

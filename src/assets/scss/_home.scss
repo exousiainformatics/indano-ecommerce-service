@@ -1,5 +1,5 @@
 .discpHead{
-    font-size: 4.3vw;
+    font-size: 5.3vw;
     color: $text-link;
     font-weight: 900;
 }
@@ -10,6 +10,10 @@
     color: $text-link;
     font-weight: 900;
 }
+.orangeLight{
+    color:$textOrange;
+    font-weight: bold;
+}
 .discpList{
     text-align: justify;
     padding-left:15px ;
@@ -18,9 +22,12 @@
         margin: 0;
     }
 }
+.text-size{
+    font-size: larger;
+}
 
 .serviceHeadText{
-    font-size: 3.3vw;
+    font-size: 4.3vw;
     color: $text-link;
     font-weight: 900;
 }
@@ -36,14 +43,13 @@
     font-weight: 700;
 }
 .companyHeadTextMobile{
-    font-size: 30px;
+    font-size: 6vw;
     color: $text-link;
     font-weight: 900;
 }
 .tileDiscriptionMobile{
-    font-size: 13px;
+    font-size: 4.8vw;
     text-align: justify;
-    font-weight: 600;
 }
 
 .brandContainer{

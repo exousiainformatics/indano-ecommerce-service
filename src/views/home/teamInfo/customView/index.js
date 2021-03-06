@@ -14,7 +14,7 @@ export default function index(props) {
     return (
         <div className="pt-2">
             <Container className="col-9">
-                <Row className="">
+                <Row className="pb-5">
                     <Carousel breakPoints={breakPoints} pagination={false} style={{height: '500px'}} enableAutoPlay={true} autoPlaySpeed={2000}
                     className="styling-example"
                     >
@@ -27,7 +27,7 @@ export default function index(props) {
                                     <Card.Body className="bodyMargin">
                                         <Card.Text>
                                             <p className="teamSubHead">{data.name}</p>
-                                            <p className="teamSubHead">{data.companyName}</p>
+                                            <p className="teamSubHead textUp">{data.companyName}</p>
                                             <p className="teamDiscription">{data.text}</p>
                                         </Card.Text>
                                     </Card.Body>

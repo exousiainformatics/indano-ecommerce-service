@@ -32,9 +32,20 @@
 }
 .teamCardContainer{
     background-image: url('../images/home/discription/teamBackground.png');
-    background-size: cover;
+    background-size: 97%;
+    background-repeat: no-repeat;
     max-height: auto;
 }
 .padding{
     padding-top: 6rem;
 }
+@media only screen and (max-width: 600px) {
+    .teamCardContainer{
+        background-image: url('../images/home/discription/teamBackground.png');
+        background-size: 100%;
+        max-height: auto;
+    }
+  }
+  .textUp{
+      text-transform: uppercase;
+  }
