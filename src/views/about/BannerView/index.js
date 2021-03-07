@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from '../../../components/commonComponents/carousel';
-import First from '../../../assets/images/about/dynamic/banner.png';
+import First from '../../../assets/images/about/dynamic/Banner1.png';
 
 const carouselItems=[
     {
@@ -15,11 +15,11 @@ const carouselItems=[
 
 export default function index() {
     return (
-        <div className="mt-5 mt-md-0">
-                <div className="pt-2 mt-md-0 pt-md-0">
+        <div className="mt-md-0">
+                <div className="mt-md-0 pt-md-0">
                 <Carousel
                     carouselItems={carouselItems}
-                    interval={1000}
+                    interval={100000}
                     indicators={false}
                     controls={false}
                 />

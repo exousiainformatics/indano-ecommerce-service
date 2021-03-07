@@ -1,13 +1,13 @@
 import React, { Component, useState, props } from 'react'
 import { Container, Image, Row, Col, Form, Button, Modal, } from 'react-bootstrap';
 import Banner from '../../../assets/images/career-img/banner-c.png';
-import Schedule from '../../../assets/images/career-img/Vector.png';
-import Mother from '../../../assets/images/career-img/mother.png';
-import Shirt from '../../../assets/images/career-img/shirt.png';
-import Flag from '../../../assets/images/career-img/flag.png';
-import Network from '../../../assets/images/career-img/network.png';
-import Training from '../../../assets/images/career-img/training.png';
-import Calendar from '../../../assets/images/career-img/calendar.png';
+import Schedule from '../../../assets/images/career-img/Vector.svg';
+import Mother from '../../../assets/images/career-img/mother.svg';
+import Shirt from '../../../assets/images/career-img/shirt.svg';
+import Flag from '../../../assets/images/career-img/flag.svg';
+import Network from '../../../assets/images/career-img/network.svg';
+import Training from '../../../assets/images/career-img/training.svg';
+import Calendar from '../../../assets/images/career-img/calendar.svg';
 
 export default function Career() {
     // constructor(props){
@@ -55,7 +55,7 @@ export default function Career() {
                     </Row>
                     <Row>
                         <Col md={6}>
-                            <Form.Control type='text' placeholder='Enter Your Name' className="homeName mb-2" />
+                            <Form.Control type='text' placeholder='Enter Your Name' className=" mb-2" />
                         </Col>
                         <Col md={6}>
                             <Form.Control type='email' placeholder='Email Id' />
@@ -87,7 +87,7 @@ export default function Career() {
                     </p>
                 </Container>
                 {/* welcome section over */}
-                <h1 className="serviceHeadText mb-3">Open Positions</h1>
+                <h1 className="serviceHeadText mb-3 ">Open Positions</h1>
                 <div className="row col-md-9 mx-auto p-0 mb-5 pos-container">
 
                     <div className="position-card col-11 col-md-3 mt-3 shadow mx-auto cursor" onClick={handleShow}>
@@ -136,7 +136,7 @@ export default function Career() {
                         <p className="para mt-3">Savage Saturdays</p>
                     </div>
                 </div>
-                <h1 className=" serviceHeadText mb-5">Your Resume Must Cover</h1>
+                <h1 className=" serviceHeadText mb-5 mt-md-5 pt-md-5">Your Resume Must Cover</h1>
             </div>
             <div className="">
                 <ul className="row list-req col-10 mx-auto mb-5">

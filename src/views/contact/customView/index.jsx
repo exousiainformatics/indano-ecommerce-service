@@ -32,14 +32,14 @@ export default class Contact extends Component {
                             <p className="text-size mb-0">Nangloi, New Delhi</p>
                             <p className="text-size mb-0">Pin Code-110041</p>
                         </Col>
-                        <Col className="col-5 ml-3 brdr font-weight-bold">
+                        <Col className="col-5 ml-5 brdr font-weight-bold">
                             <h1 className="companyHeadText mb-4">Phone/Email</h1>
                             <p className="text-size mb-0">+91-7985435146(Official) </p>
                             <p className="text-size mb-0">info@indano.in(Official)</p>
                             <p className="text-size mb-0">info.indano@gmail.com(Seller support)</p>
                             <p className="text-size mb-0">+91-9311079540(Seller support)</p>
                         </Col>
-                        <Col className="col-3 ml-2 font-weight-bold">
+                        <Col className="col-3 ml-4 font-weight-bold">
                             <h1 className="companyHeadText mb-4">media</h1>
                             <Row>
                                 <Col href="/">
@@ -84,19 +84,19 @@ export default class Contact extends Component {
                                             <Form.Control type='text' placeholder='Your Name' className="homeName mb-2" />
                                         </Col>
                                         <Col md={6}>
-                                            <Form.Control type='email' placeholder='Email' />
+                                            <Form.Control type='email' placeholder='Email' className="homeName" />
                                         </Col>
                                     </Row>
                                     <Row className="mt-md-3 mt-3 mb-3">
                                         <Col md={6}>
-                                            <Form.Control type='number' placeholder="Phone No." />
+                                            <Form.Control type='number' placeholder="Phone No." className="homeName" />
                                         </Col>
                                         <Col md={6}>
-                                            <Form.Control type='text' placeholder="Company" />
+                                            <Form.Control type='text' placeholder="Company" className="homeName"/>
                                         </Col>
                                     </Row>
                                     <Row><Col md={12}>
-                                        <Form.Control type='text' placeholder="Type your message" className="height" />
+                                        <Form.Control type='text' placeholder="Type your message" className="height homeName" />
                                     </Col></Row>
                                     <Row className="mt-5 ">
                                         <Col md={4} className="mt-md-0">

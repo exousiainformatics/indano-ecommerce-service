@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 export default function index(props) {
     return (
         <div>
-            <Container className="text-center mt-5">
+            <Container className="text-center">
                 {props.data.map((data, index) => (
                     <Container>
                         <Row>
