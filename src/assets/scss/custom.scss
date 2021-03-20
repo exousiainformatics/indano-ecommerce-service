@@ -3,6 +3,7 @@
 
 body{
     font-family: $font;
+    user-select: none;
 }
 ::-webkit-scrollbar{
     width: 5px;

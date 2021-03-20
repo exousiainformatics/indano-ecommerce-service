@@ -6,10 +6,6 @@ const carouselItems=[
     {
         src: First,
         width: '100%'
-    },
-    {
-        src: First,
-        width: '100%'
     }
 ]
 
