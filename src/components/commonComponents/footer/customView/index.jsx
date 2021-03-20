@@ -85,28 +85,28 @@ export default class index extends Component {
                                 <Col md={8} className="mt-4">
                                     <span className="footerText">
                                         <BrowserRouter>
-                                            <Link to='/about'>About us</Link>
+                                            <Link to='/about' target="_blank">About us</Link>
                                         </BrowserRouter>
                                     </span>
                                 </Col>
                                 <Col md={8} className="mt-4">
                                     <span className="footerText">
                                         <BrowserRouter>
-                                            <Link to='/privacy'>Privacy Policy</Link>
+                                            <Link to='/privacy' target="_blank">Privacy Policy</Link>
                                         </BrowserRouter>
                                     </span>
                                 </Col>
                                 <Col md={8} className="mt-4">
                                     <span className="footerText">
                                         <BrowserRouter>
-                                            <Link to='/career'>Careers</Link>
+                                            <Link to='/career' target="_blank">Careers</Link>
                                         </BrowserRouter>
                                     </span>
                                 </Col>
                                 <Col md={8} className="mt-4">
                                     <span className="footerText">
                                         <BrowserRouter>
-                                            <Link to='/blog'>Blogs</Link>
+                                            <Link to='/blog' target="_blank">Blogs</Link>
                                         </BrowserRouter>
                                     </span>
                                 </Col>
