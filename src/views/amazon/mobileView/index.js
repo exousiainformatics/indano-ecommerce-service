@@ -9,6 +9,7 @@ import Ar from '../../../assets/images/amazon-img/ar.png';
 import Daily from '../../../assets/images/amazon-img/daily.png';
 import Bs from '../../../assets/images/amazon-img/bs.png';
 import Abs from '../../../assets/images/amazon-img/abs.png';
+import { BrowserRouter, Link } from 'react-router-dom';
 
 export default function index() {
     return (
@@ -17,8 +18,11 @@ export default function index() {
             <Container>
                 <Row className="text-center">
                     <Col className="col-6 mx-auto">
-                        <Image src={Acc} width={'80%'} />
-                        <p className="mt-4 font-weight-bold text-size">Account Registration</p>
+                        <BrowserRouter>
+                            <Link to={{ pathname: "https://sellercentral.amazon.in/gp/on-board/workflow/Registration/login.html?passthrough%2Faccount=soa&passthrough%2FsuperSource=OAR&passthrough%2FmarketplaceID=A21TJRUUN4KGV&passthrough%2Fld=SA-OP-Indano" }} target="_blank" style={{ textDecoration: 'none', color: '#212529' }}>
+                                <Image src={Acc} width={'80%'} />
+                                <p className="mt-4 font-weight-bold text-size">Account Registration</p>
+                            </Link> </BrowserRouter>
                     </Col>
                     <Col className="col-6 pl-5">
                         <Image src={Prod} width={'80%'} />
