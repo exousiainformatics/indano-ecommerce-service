@@ -17,7 +17,7 @@ export default class GetTouchSection extends Component {
                             <Form>
                                 <Row>
                                     <Col md={6}>
-                                        <Form.Control type='text' placeholder='Enter Your Name' className="homeName mb-2" />
+                                        <Form.Control type='text' placeholder='Enter Your Name' className=" mb-2" />
                                     </Col>
                                     <Col md={6}>
                                         <Form.Control type='email' placeholder='Email Id'  />
