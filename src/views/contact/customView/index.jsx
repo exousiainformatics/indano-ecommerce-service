@@ -5,7 +5,7 @@ import FacebookOrg from '../../../assets/images/social/fb.png';
 import InstagramOrg from '../../../assets/images/social/insta.png';
 import LinkedinOrg from '../../../assets/images/social/linkdin.png';
 import Facebook from '../../../assets/images/social/fbbb.png';
-import Instagram from '../../../assets/images/social/download.jpg';
+// import Instagram from '../../../assets/images/social/download.jpg';
 import Linkedin from '../../../assets/images/social/linkk.png';
 import map from '../../../assets/images/contact-us/map.png';
 export default class Contact extends Component {
@@ -47,14 +47,14 @@ export default class Contact extends Component {
                                         <Image src={this.state.hover ? FacebookOrg : Facebook} width={'90%'} />
                                     </span>
                                 </Col>
-                                <Col href="/">
-                                    <span className="pointer" onMouseEnter={() => this.setState({ hover1: true })} onMouseOut={() => this.setState({ hover1: false })}>
-                                        <Image src={this.state.hover1 ? InstagramOrg : Instagram} width={'90%'} />
-                                    </span>
-                                </Col>
                                 <Col>
                                     <span className="pointer" onMouseEnter={() => this.setState({ hover2: true })} onMouseOut={() => this.setState({ hover2: false })}>
                                         <Image src={this.state.hover2 ? LinkedinOrg : Linkedin} width={'90%'} />
+                                    </span>
+                                </Col>
+                                <Col href="/">
+                                    <span className="pointer" onMouseEnter={() => this.setState({ hover1: true })} onMouseOut={() => this.setState({ hover1: false })}>
+                                        <Image src={this.state.hover1 ? InstagramOrg:InstagramOrg} width={'90%'} />
                                     </span>
                                 </Col>
                             </Row>

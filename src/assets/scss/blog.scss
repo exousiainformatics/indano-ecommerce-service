@@ -1,0 +1,67 @@
+// desktop styles 
+
+.descriptionText{
+    font-size: large;
+    line-height: normal;
+}
+.author{
+    border-bottom: 2px solid $text-link;
+    display: inline;
+}
+.descriptionTextb{
+    // font-size: small;
+    line-height: normal;
+}
+.authorb{
+    border-bottom: 3px solid $text-link;
+    display: inline;
+}
+.blogbtn{
+    background:$text-link;
+    height:38px;
+    padding:0 18px;
+}
+.grids{
+    display:grid;
+    grid-template-columns:29.5% 29.5% 29.5%;
+    grid-gap:4rem;
+}
+.wrapper{
+    display:grid;
+    grid-template-columns:40% 55%;
+    grid-gap:4rem;
+}
+.text-light-title{
+    color: $text-link;
+}
+
+.under{
+    text-decoration: underline;
+}
+
+.blogCard{
+    cursor: pointer;
+}
+
+// 📱  mobile style 
+
+.head{
+    background: url('../images/blog-img/common.svg');
+    background-size: cover;
+    height: 22rem;
+    display: flex;
+    // height: 600px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.text-wrap{
+    background-color: rgba(2, 2, 2,.25);
+}
+.blogbtnMobile{
+    background:$text-link;
+    height:33px;
+    padding:0 18px;
+}
+.color{
+    color: $text-link;
+}

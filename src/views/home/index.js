@@ -10,6 +10,7 @@ import BrandView from './brandCarouselView';
 import TeamInfo from './teamInfo';
 import BrandTrustUs from './brandTrustUs';
 import GetTouchSection from './getInTouch';
+import BlogView from './blogView';
 
 const carouselItems = [
     {
@@ -35,6 +36,7 @@ export default function index() {
             <Package />
             <BrandView />
             <TeamInfo />
+            <BlogView/>
             <BrandTrustUs/>
             <GetTouchSection/>
         </div>

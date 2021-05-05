@@ -20,6 +20,7 @@ import LogoChanged from './assets/images/company-logo/logo2.png';
 import Footer from './components/commonComponents/footer';
 import Wlogo from '../src/assets/images/social/Frame.png';
 import Privacy from './views/privacy';
+import Blog1 from './views/blog/blogPages'
 
 const baseUrl = '/indano-ecommerce-service';
 
@@ -176,6 +177,7 @@ export default class App extends Component {
             <Route path="/tata" exact component={Tata} />
             <Route path="/ajio" exact component={Ajio} />
             <Route path="/privacy" exact component={Privacy} />
+            <Route path='/blog/blog1' exact component={Blog1}/>
             {/* <Route component={NoMatch} /> */}
           </Switch>
         </Router>
