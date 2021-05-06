@@ -10,6 +10,8 @@ import Instagram from '../../../../assets/images/social/inst.svg';
 import Linkedin from '../../../../assets/images/social/lkd.svg';
 import Logo from '../../../../assets/images/company-logo/logo-transparent.png'
 import { Container, Row, Col } from 'react-bootstrap';
+import { BrowserRouter, Link } from 'react-router-dom';
+
 export default class index extends Component {
     render() {
         return (
@@ -24,13 +26,25 @@ export default class index extends Component {
                     </Row>
                     <Row>
                         <Col className="mt-4 social-img col-3 mx-auto">
-                            <Image src={Facebook} width={'90%'}/>
+                            <BrowserRouter>
+                                <Link to={{ pathname: "https://www.facebook.com/indanoservice/" }} target="_blank">
+                                    <Image src={Facebook} width={'90%'} />
+                                </Link>
+                            </BrowserRouter>
                         </Col>
                         <Col className="mt-4 social-img col-3 mx-auto">
-                            <Image src={Instagram} width={'90%'}/>
+                            <BrowserRouter>
+                                <Link to={{ pathname: "https://www.instagram.com/invites/contact/?i=3q694vmnhw84&utm_content=27dfpsp" }} target="_blank">
+                                    <Image src={Instagram} width={'90%'} />
+                                </Link>
+                            </BrowserRouter>
                         </Col>
                         <Col className="mt-4 social-img col-3 mx-auto">
-                            <Image src={Linkedin} width={'90%'}/>
+                            <BrowserRouter>
+                                <Link to={{ pathname: "https://www.linkedin.com/company/indano-e-commerce-services" }} target="_blank">
+                                    <Image src={Linkedin} width={'90%'} />
+                                </Link>
+                            </BrowserRouter>
                         </Col>
                     </Row>
                     <Row>
@@ -45,7 +59,7 @@ export default class index extends Component {
                             <Row>
                                 <Col md={8} className="mt-4">
                                     <span className="footerText-m">
-                                        <p>Ground Floor F-76 Adhyapak Nagar,</p> 
+                                        <p>Ground Floor F-76 Adhyapak Nagar,</p>
                                         <p>Nangloi, New Delhi, Pin Code-110041</p>
                                     </span>
                                 </Col>
@@ -78,13 +92,13 @@ export default class index extends Component {
                         {/* second-column-starts  */}
                     </Row>
                     <Row>
-                    <Col xs={3} className="mt-4 offset-9">
+                        <Col xs={3} className="mt-4 offset-9">
                             <Image src={Logo} width={'140%'} />
                         </Col>
                     </Row>
                     <Row className="trash">
                         <Col>
-                         
+
                         </Col>
                     </Row>
                 </Container>

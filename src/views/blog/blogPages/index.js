@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Image } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { NavLink, BrowserRouter,Link } from 'react-router-dom';
 import Img from './../../../assets/images/blog-img/common.svg'
 import Insta from './../../../assets/images/blog-img/insta.svg'
 import Linkd from './../../../assets/images/blog-img/linkd.svg'
@@ -126,11 +126,23 @@ export default function index() {
                     </div>
                     <div className='col-md-4 pl-5 d-none d-md-block'>
                         <h4 className='font-weight-bold'>SHARE</h4>
-                        <Image src={Insta} width={'18%'} className='mt-3 cursor-pointer' />
+                        <BrowserRouter>
+                        <Link to={{ pathname: "https://www.instagram.com/invites/contact/?i=3q694vmnhw84&utm_content=27dfpsp" }} target="_blank">
+                                   <Image src={Insta} width={'18%'} className='mt-3 cursor-pointer' />
+                                   </Link>
+                        </BrowserRouter>
                         <br />
-                        <Image src={Linkd} width={'18%'} className='mt-3 cursor-pointer' />
+                        <BrowserRouter>
+                        <Link to={{ pathname: "https://www.linkedin.com/company/indano-e-commerce-services" }} target="_blank">
+                                    <Image src={Linkd} width={'18%'} className='mt-3 cursor-pointer' />
+                                    </Link>
+                        </BrowserRouter>
                         <br />
-                        <Image src={Fb} width={'18%'} className='mt-3 cursor-pointer' />
+                        <BrowserRouter>
+                        <Link to={{ pathname: "https://www.facebook.com/indanoservice/" }} target="_blank">
+                                  <Image src={Fb} width={'18%'} className='mt-3 cursor-pointer' />
+                                  </Link>
+                        </BrowserRouter>
 
                         <h3 className='font-weight-bold mt-5'>CATEGORIES</h3>
                         <p className='category_list mt-4'>Article</p>

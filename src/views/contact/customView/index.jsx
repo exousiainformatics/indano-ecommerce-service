@@ -8,6 +8,7 @@ import Facebook from '../../../assets/images/social/fbbb.png';
 // import Instagram from '../../../assets/images/social/download.jpg';
 import Linkedin from '../../../assets/images/social/linkk.png';
 import map from '../../../assets/images/contact-us/map.png';
+import { NavLink, BrowserRouter,Link } from 'react-router-dom';
 export default class Contact extends Component {
     constructor(props) {
         super(props);
@@ -43,19 +44,31 @@ export default class Contact extends Component {
                             <h1 className="companyHeadText mb-4">media</h1>
                             <Row>
                                 <Col href="/">
-                                    <span className="pointer" onMouseEnter={() => this.setState({ hover: true })} onMouseOut={() => this.setState({ hover: false })}>
+                                <BrowserRouter>
+                        <Link to={{ pathname: "https://www.facebook.com/indanoservice/" }} target="_blank">
+                        <span className="pointer" onMouseEnter={() => this.setState({ hover: true })} onMouseOut={() => this.setState({ hover: false })}>
                                         <Image src={this.state.hover ? FacebookOrg : Facebook} width={'90%'} />
                                     </span>
+                                    </Link>
+                                    </BrowserRouter>
                                 </Col>
                                 <Col>
-                                    <span className="pointer" onMouseEnter={() => this.setState({ hover2: true })} onMouseOut={() => this.setState({ hover2: false })}>
+                                <BrowserRouter>
+                        <Link to={{ pathname: "https://www.linkedin.com/company/indano-e-commerce-services" }} target="_blank">
+                        <span className="pointer" onMouseEnter={() => this.setState({ hover2: true })} onMouseOut={() => this.setState({ hover2: false })}>
                                         <Image src={this.state.hover2 ? LinkedinOrg : Linkedin} width={'90%'} />
                                     </span>
+                                    </Link>
+                                    </BrowserRouter>
                                 </Col>
                                 <Col href="/">
-                                    <span className="pointer" onMouseEnter={() => this.setState({ hover1: true })} onMouseOut={() => this.setState({ hover1: false })}>
+                                <BrowserRouter>
+                        <Link to={{ pathname: "https://www.instagram.com/invites/contact/?i=3q694vmnhw84&utm_content=27dfpsp" }} target="_blank">
+                                   <span className="pointer" onMouseEnter={() => this.setState({ hover1: true })} onMouseOut={() => this.setState({ hover1: false })}>
                                         <Image src={this.state.hover1 ? InstagramOrg:InstagramOrg} width={'90%'} />
                                     </span>
+                                    </Link>
+                                    </BrowserRouter>
                                 </Col>
                             </Row>
                         </Col>
