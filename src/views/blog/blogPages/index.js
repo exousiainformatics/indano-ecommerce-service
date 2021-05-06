@@ -23,7 +23,7 @@ export default function index() {
                 {/* upto Upasana  */}
                 <img src={Img} width={'100%'} />
 
-                <Row className='mt-5'>
+                <Row className='mt-5 mr-0 pl-3'>
                     <div className="blog_content pr-md-5 col-12 col-md-8 pr-4 pl-md-3 pl-4 mb-5 pb-5">
                         <div className='d-block d-md-none'>
                             <h1 className="serviceHeadText">E-Commerce : Yesterday,</h1>
