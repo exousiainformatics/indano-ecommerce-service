@@ -154,7 +154,7 @@ export default class App extends Component {
                 </Navbar.Collapse>
               </Navbar>
             </div>
-            <span className="float"><Image src={Wlogo} width={"100%"} className="my-float" /></span>
+            <span className="float"><a href="https://api.whatsapp.com/send?phone=+919310364882&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank"><Image src={Wlogo} width={"100%"} className="my-float" /></a></span>
           </>
         </Container>
       );
