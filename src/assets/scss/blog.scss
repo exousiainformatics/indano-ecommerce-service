@@ -30,6 +30,7 @@
     display:grid;
     grid-template-columns:40% 55%;
     grid-gap:4rem;
+    outline: none;
 }
 .text-light-title{
     color: $text-link;
@@ -64,4 +65,21 @@
 }
 .color{
     color: $text-link;
+}
+.carosal-blog .rec.rec-arrow-left{
+    position: absolute;
+    top:99%;
+    left: 21%;
+    color: $text-link;
+    z-index: 5;
+}
+.carosal-blog .rec.rec-arrow-right{
+    position: absolute;
+    top: 99%;
+    left: 26%;
+    color: $text-link;
+}
+.carosal-blog .rec.rec-arrow:hover{
+    background-color: $text-link;
+    color: black;
 }

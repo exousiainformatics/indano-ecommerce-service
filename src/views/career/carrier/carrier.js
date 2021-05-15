@@ -8,6 +8,7 @@ import Flag from '../../../assets/images/career-img/flag.svg';
 import Network from '../../../assets/images/career-img/network.svg';
 import Training from '../../../assets/images/career-img/training.svg';
 import Calendar from '../../../assets/images/career-img/calendar.svg';
+import FadeUpScroll from '../../../components/scrollComponent/fadeUpScroll/index'
 
 export default function Career() {
     // constructor(props){
@@ -33,7 +34,7 @@ export default function Career() {
         Launch demo modal
       </Button> */}
 
-            <Modal show={show} onHide={handleClose}{...props}
+     <Modal show={show} onHide={handleClose}{...props}
                 size="lg"
                 aria-labelledby="contained-modal-title-vcenter"
                 centered
@@ -75,20 +76,20 @@ export default function Career() {
             </Modal>
             {/* modal section over */}
             <div className="text-center">
-                <h1 className="mt-5 font-weight-bold EqualText">Equal Opportunities & Equal Chances</h1>
+            <FadeUpScroll><h1 className="mt-5 font-weight-bold EqualText">Equal Opportunities & Equal Chances</h1>
                 <h1 className="font-weight-bold EqualText">Welcome To The World Of</h1>
                 <h1 className="e-text  font-weight-bold EqualText">E-Commerce</h1>
-                <hr className="under-line mt-4"></hr>
+                <hr className="under-line mt-4"></hr></FadeUpScroll>
                 <Container>
-                    <p className="para pl-md-5 pr-md-5 m-sm-5 text-center">We help our clients to evolve their brand through increasing market
+                <FadeUpScroll><p className="para pl-md-5 pr-md-5 m-sm-5 text-center">We help our clients to evolve their brand through increasing market
                     reach and growing goodwill.  Our dedicated team helps you bring-up-sell opportunities and keeps a check on your market position.
                     We are looking for dedicated smart talent in our organisation who may serve our clients with respect, ethics, culture and knowledge.
                     We would love to see you join us in our mission to serve the merchant to be among the best service providers around globe.
-                    </p>
+                    </p></FadeUpScroll>
                 </Container>
                 {/* welcome section over */}
-                <h1 className="serviceHeadText mb-3 ">Open Positions</h1>
-                <div className="row col-md-9 mx-auto p-0 mb-5 pos-container">
+                <FadeUpScroll><h1 className="serviceHeadText mb-3 ">Open Positions</h1></FadeUpScroll>
+                <FadeUpScroll><div className="row col-md-9 mx-auto p-0 mb-5 pos-container">
 
                     <div className="position-card col-11 col-md-3 mt-3 shadow mx-auto cursor" onClick={handleShow}>
                         <h5 className="p-3 pt-5">Content Writer</h5>
@@ -103,10 +104,10 @@ export default function Career() {
                         <h5 className="pb-3 pt-5">Web Designer</h5>
                         <p className="detail">View Details</p>
                     </div>
-                </div>
+                </div></FadeUpScroll>
                 {/* open position section over */}
-                <h1 className="serviceHeadText mb-3 pt-4">Employee Perks & Benefits</h1>
-                <div className="row col-sm-10 mx-auto mb-sm-5">
+                <FadeUpScroll><h1 className="serviceHeadText mb-3 pt-4">Employee Perks & Benefits</h1></FadeUpScroll>
+                <FadeUpScroll><div className="row col-sm-10 mx-auto mb-sm-5">
                     <div className="perk-element-box col-6 col-md-3">
                         <Image src={Schedule} width={'55%'} className="mt-sm-5" />
                         <p className="para mt-3">Flexible Paid Time Off</p>
@@ -135,16 +136,16 @@ export default function Career() {
                         <Image src={Calendar} width={'50%'} className="mt-sm-5" />
                         <p className="para mt-3">Savage Saturdays</p>
                     </div>
-                </div>
-                <h1 className=" serviceHeadText mb-5 mt-md-5 pt-md-5">Your Resume Must Cover</h1>
+                </div></FadeUpScroll>
+                <FadeUpScroll><h1 className=" serviceHeadText mb-5 mt-md-5 pt-md-5">Your Resume Must Cover</h1></FadeUpScroll>
             </div>
             <div className="">
-                <ul className="row list-req col-10 mx-auto mb-5">
+            <FadeUpScroll><ul className="row list-req col-10 mx-auto mb-5">
                     <li className="col-sm-8 col-12 pb-sm-5"><span>Tell us why you’re Interested</span></li>
                     <li className="col-sm-4 col-12 pb-sm-5"><span>Write about yourself</span></li>
                     <li className="col-sm-8 col-12 pb-sm-5"><span>Don’t forget to mention your Strength</span></li>
                     <li className="col-sm-4 col-12 pb-sm-5"><span>Must mention yourExtra-curriculars</span></li>
-                </ul>
+                </ul></FadeUpScroll>
             </div>
             {/* <Modal isOpen={modalIsOpen}>
                 <h2>hello tite</h2>
