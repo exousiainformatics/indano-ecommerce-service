@@ -7,13 +7,14 @@ import Daily from '../../../assets/images/flipkart-img/daily.png'
 import Full from '../../../assets/images/flipkart-img/fullAcc.png'
 import Train from '../../../assets/images/flipkart-img/train.png'
 import Flip from '../../../assets/images/flipkart-img/flip.png'
+import FadeUpScroll from '../../../components/scrollComponent/fadeUpScroll/index';
 
 export default function index() {
     return (
         <Container style={{ marginTop: '30%' }}>
             <Container className="text-center">
                 <h1 className="serviceHeadText font-mobile-extra-bigger text-center mb-5">Flipkart</h1>
-                <Row>
+                <FadeUpScroll><Row>
                     <Col className="col-6">
                         <Image src={Acc} width={'80%'} />
                         <h4>Account Registration</h4>
@@ -22,8 +23,8 @@ export default function index() {
                         <Image src={Prod} width={'60%'} />
                         <h4>Product Listing</h4>
                     </Col>
-                </Row>
-                <Row className="mt-4">
+                </Row></FadeUpScroll>
+                <FadeUpScroll><Row className="mt-4">
                     <Col className="col-6">
                         <Image src={Pro} width={'70%'} />
                         <h4>Promotion & Marketing</h4>
@@ -32,8 +33,8 @@ export default function index() {
                         <Image src={Daily} width={'60%'} />
                         <h4>Daily Updation</h4>
                     </Col>
-                </Row>
-                <Row className="mt-4">
+                </Row></FadeUpScroll>
+                <FadeUpScroll><Row className="mt-4">
                     <Col className="col-6">
                         <Image src={Full} width={'70%'} />
                         <h4>Full Account Management Services</h4>
@@ -42,16 +43,16 @@ export default function index() {
                         <Image src={Train} width={'60%'} />
                         <h4>Training</h4>
                     </Col>
-                </Row>
-                <Row className="mt-4">
+                </Row></FadeUpScroll>
+                <FadeUpScroll><Row className="mt-4">
                     <Col className="col-6 offset-3">
                         <Image src={Flip} width={'70%'} />
                         <h4>Flipkart assured</h4>
                     </Col>
-                </Row>
+                </Row></FadeUpScroll>
             </Container>
             {/* images section ends */}
-            <h2 className="text-light-org mt-5 font-weight-bold">Account Registration</h2>
+            <FadeUpScroll><h2 className="text-light-org mt-5 font-weight-bold">Account Registration</h2>
             <p className="mb-0 mt-3">For Flipkart account registration we need certain documents along with few more information.</p>
             <p className="mb-0">Documents needed for Flipkart account registration:-</p>
             <ul>
@@ -59,9 +60,9 @@ export default function index() {
                 <li>GSTIN number (mandatory)</li>
                 <li>Bank account</li>
             </ul>
-            <p>After filling all the needed information, click 'Register with Flipkart' now we are successfully registered with Flipkart.</p>
+            <p>After filling all the needed information, click 'Register with Flipkart' now we are successfully registered with Flipkart.</p></FadeUpScroll>
             {/* account registration secton ends */}
-            <h2 className="text-light-org  font-weight-bold mt-5 mb-3">Product Listing & Cataloging</h2>
+            <FadeUpScroll><h2 className="text-light-org  font-weight-bold mt-5 mb-3">Product Listing & Cataloging</h2>
             <p className="mb-0">After completing the registration process we need to list our products on Flipkart portal.</p>
             <p>There are 2 ways of Listing:-</p>
             <p className="font-weight-bold">Single Listing</p>
@@ -79,16 +80,16 @@ export default function index() {
 
                 <li>Image</li>
                 <li>Bullet points</li>
-            </ul>
+            </ul></FadeUpScroll>
             {/* product and listing section ends */}
-            <h2 className="text-light-org  font-weight-bold mt-5 mb-3">Promotion & Marketing</h2>
+            <FadeUpScroll><h2 className="text-light-org  font-weight-bold mt-5 mb-3">Promotion & Marketing</h2>
             <p>We market your products and promote it through various tools, software and expertise skills for more traffic.This eventually helps us to create visibility for your products. Product visibility makes it easy for buyer to find your products and you are on track to win great sales.</p>
-            {/* promotion Marketing section ends */}
+            </FadeUpScroll>{/* promotion Marketing section ends */}<FadeUpScroll>
             <h2 className="text-light-org  font-weight-bold mt-5 mb-3">Daily Updation</h2>
             <p className="mb-2">Daily updation on your Flipkart account means regular checking and updation of keyword, pricing, promotions etc.</p>
             <p>This keeps your account health at <span className="font-weight-bold font-italic">‘Excellent’</span>.</p>
-            {/* daily updation section ends 
-             */}
+            </FadeUpScroll>{/* daily updation section ends 
+             */}<FadeUpScroll>
             <h2 className="text-light-org  font-weight-bold mt-5 mb-3">Flipkart Assured</h2>
             <p className="mb-2">Flipkart boost services includes an account manager, who will work on different aspects of your account like repricing, deals, promotion, account health management, everyday operations etc.</p>
             <p>Benefits of Boost Services</p>
@@ -104,10 +105,10 @@ export default function index() {
                 </Col>
             </Row>
             <p>Our account managers optimize your advertisements and manage campaign for effective and efficient results.</p>
-            {/* flipkart assured section ends */}
+            </FadeUpScroll>{/* flipkart assured section ends */}<FadeUpScroll>
             <h2 className="text-light-org  font-weight-bold mb-2">Training</h2>
             <p className="mb-5">Get training on everything, how selling on Flipkart works, day to day operations, how to check your orders, how to manage your amazon account and so on.</p>
-            {/* training section ends */}
+            </FadeUpScroll>{/* training section ends */}
         </Container>
     )
 }

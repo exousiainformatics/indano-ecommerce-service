@@ -9,6 +9,7 @@ import Facebook from '../../../assets/images/social/fbbb.png';
 import Linkedin from '../../../assets/images/social/linkk.png';
 import map from '../../../assets/images/contact-us/map.png';
 import { NavLink, BrowserRouter,Link } from 'react-router-dom';
+import FadeUpScroll from '../../../components/scrollComponent/fadeUpScroll/index'
 export default class Contact extends Component {
     constructor(props) {
         super(props);
@@ -25,7 +26,7 @@ export default class Contact extends Component {
                     <Image src={Banner} width={'100%'} className="mt-5 mt-sm-0 pt-sm-0" />
                 </div>
                 <Container className="col-10 mt-5 mb-5">
-                    <Row>
+                <FadeUpScroll><Row>
                         <Col className="col-3 brdr font-weight-bold">
                             <h1 className="companyHeadText mb-4">Address</h1>
                             <p className="text-size mb-0">Ground Floor F-76 </p>
@@ -72,7 +73,7 @@ export default class Contact extends Component {
                                 </Col>
                             </Row>
                         </Col>
-                    </Row>
+                    </Row></FadeUpScroll>
                 </Container>
                 {/* map starts here */}
                 <Container>
